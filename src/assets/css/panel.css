@@ -78,6 +78,19 @@
     color: #FFFF78;
 }
 
+.config-container {
+    background-color: black;
+    color: white
+}
+
+.header-image>img {
+    width: 318px;
+}
+
+.config-container>.description {
+    margin: 20px;
+}
+
 body {
     margin: 0;
 }

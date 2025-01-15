@@ -28,7 +28,6 @@ function ViewerPage({data, defaultGame}) {
             )}
             
             <div className="data-container">
-
                 <div className="data-panel" onClick={() => window.open(`https://rankings.the-elite.net/~${data.alias}/${selectedView === "GE" ? "goldeneye" : "perfect-dark"}`, '_blank')}>
                     <div className="icon-container">
                         <div className="icon">
