@@ -1,0 +1,82 @@
+.config-body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.config-body>.banner-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.config-body>.banner-container>img {
+    width: 100%;
+}
+
+.config-body>.main-container {
+    height: 626px;
+    position: relative;
+    /* Added for positioning child elements */
+    overflow: hidden;
+}
+
+.config-body>.main-container>img {
+    height: 626px;
+    width: 100%;
+}
+
+.form-container {
+    position: absolute;
+    top: 65%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+}
+
+.input-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feedback-container {
+    height: 40px;
+}
+
+.success {
+    color: black;
+    font-weight: bold;
+}
+
+.fail {
+    color: black;
+    font-weight: bold;
+}
+
+.input-field {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #928D72;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #7B7A5E;
+}

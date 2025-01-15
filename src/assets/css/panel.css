@@ -1,0 +1,83 @@
+.panel-body {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #151719;
+}
+
+.panel-body>.tabs-container {
+    width: 318px;
+    display: flex;
+}
+
+.tab {
+    width: 159px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease, background 0.3s ease;
+}
+
+.selected-tab {
+    background-color: #151719;
+}
+
+.tab:not(.selected-tab) {
+    background: linear-gradient(to bottom, #222222 50%, #3E3E3E 50%);
+}
+
+.panel-body>.data-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.data-container>.data-panel {
+    display: flex;
+    background-color: black;
+    margin: 0 20px;
+    border-radius: 10px;
+    color: white;
+    width: 280px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.data-container>.data-panel>.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+}
+
+.data-container>.data-panel>.left-container {
+    display: flex;
+    align-items: center;
+    width: 110px;
+    color: #999985;
+}
+
+.data-container>.data-panel>.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+}
+
+.rank {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+.yellow-font {
+    color: #FFFF78;
+}
+
+body {
+    margin: 0;
+}
